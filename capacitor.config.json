@@ -1,5 +1,12 @@
-{
-  "appId": "com.sscinc.FundSvcsP",
-  "appName": "gocentral_portal",
-  "webDir": "build"
-}
+import { CapacitorConfig } from '@capacitor/cli';
+
+const config: CapacitorConfig = {
+  appId: 'io.ionic.gocentral_portal',
+  appName: 'gocentral_portal',
+  webDir: 'dist',
+  server: {
+    androidScheme: 'https'
+  }
+};
+
+export default config;
