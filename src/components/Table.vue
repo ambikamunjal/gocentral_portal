@@ -191,8 +191,8 @@ table.bordered-table td {
    width: 45px;
    /*height: 20px;*/
    padding: 3px;
-   background:FA9C1B;/*yellow*/
-   /*background:#FF0000;*/ /*Red)
+   background: #FA9C1B;/*yellow*/
+   /*background: #FF0000;*/ /*Red)
    border-radius: 10px;
  }
 
