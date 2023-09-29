@@ -11,7 +11,7 @@
       
          <tbody
                v-for="user in users" >
-            <tr> <td  width="80%"><b>{{ user.exception }}</b></td>  <td  width="20%" align="center"><div class="oval">{{ user.count }}</div></td> </tr>
+            <tr> <td  width="80%"><b>{{ user.exception }}</b></td>  <td  style="color:#ffffff" width="20%" align="center"><div class="oval">{{ user.count }}</div></td> </tr>
             <tr> <td colspan="2">Session: {{ user.session }}</td> </tr>
             <tr> <td colspan="2">{{ user.message }}</td> </tr>
          </tbody>
@@ -191,8 +191,7 @@ table.bordered-table td {
    width: 45px;
    /*height: 20px;*/
    padding: 3px;
-  /* background: #FA9C1B; *//*yellow*/
-   background: #FF0000; /*Red)*/
+   background: #FA9C1B;
    border-radius: 20px;
  }
 
