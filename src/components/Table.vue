@@ -191,7 +191,7 @@ table.bordered-table td {
    width: 45px;
    /*height: 20px;*/
    padding: 3px;
-   background: #008000;
+   background: #FF0000;
    border-radius: 20px;
  }
 
